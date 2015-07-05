@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 from lcddriver import lcd
 import sys
 
