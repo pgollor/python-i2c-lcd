@@ -12,7 +12,9 @@ sudo modprobe i2c-dev
 ```
 
 To enable this module on startup we can add this as root into `/etc/modules`:
-```echo "i2c-dev" >> /etc/modules```
+```
+echo "i2c-dev" >> /etc/modules
+```
 
 ### Packages
 ```
