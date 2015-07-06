@@ -7,7 +7,10 @@ python-i2c-lcd
 Use ```sudo raspi-config``` to enable I2C.
 
 After that we need to enable the i2c-dev module.
-```sudo modprobe i2c-dev```
+```
+sudo modprobe i2c-dev
+```
+
 To enable this module on startup we can add this as root into `/etc/modules`:
 ```echo "i2c-dev" >> /etc/modules```
 
